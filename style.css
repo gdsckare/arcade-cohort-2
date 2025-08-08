@@ -1,0 +1,167 @@
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    width:70%;
+}
+@media (min-width:768px){
+    .navbar-brand{
+        width:40%;
+    }
+}
+.nav-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.chapter-name {
+    font-size: 1.75em;
+}
+
+.follow-us-icon-container {
+    background-color:transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 40px;
+    padding:7px 10px 7px 8px;
+    border:solid 1px black;
+}
+.icon {
+    color: #272727;
+    font-size: 20px;
+}
+
+
+.element {
+    font-size: 16px;
+    color: #3c4043;
+    margin-bottom:0px;
+}
+
+.event-heading{
+    font-size: 20px;
+    color: #3c4043;
+    margin-bottom:0px;
+    margin-top:10px;
+}
+
+.event-heading-main {
+    margin-top: 0;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 12px;;
+}
+
+.image{
+    width:100%;
+}
+
+.steps{
+    font-size: 22px;
+    color: #3c4043;
+    margin-bottom:0px;
+}
+
+
+.element {
+    color: black;
+    font-size: 18px;
+}
+
+.copyfield {
+    max-width: 100%;
+    border-radius: 5px;
+    font-size:16px;
+}
+
+.btn-dark{
+    background-color:black;
+    height:30px;
+}
+
+#link {
+    max-width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #212121;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    overflow-x: scroll;
+}
+
+#link::-webkit-scrollbar {
+    display: none;
+}
+
+#copy-btn {
+    color: #fff;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.paragraph {
+    margin-bottom: 6px;
+}
+
+.footer {
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer .d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .fa-regular {
+    margin-right: 0.5rem; 
+}
+
+.footer .link {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 750px) {
+    .chapter-name {
+        font-size: 2.5em;
+    }
+    .arcade-banner {
+        border-radius: 0px;
+    }
+}
+
+.contact{
+    font-size:24px;
+}
+
+.sub-title{
+    font-size:16px;
+    font-style: italic;
+}
+
+.para{
+    margin-bottom: 5px;
+    font-size:18px;
+}
+
+.facilitator{
+    width:50%;
+}
